@@ -4,12 +4,12 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "redmine_client"
+    gem.name = "oruen_redmine_client"
     gem.summary = %Q{Redmine API client}
     gem.description = %Q{Access the Redmine REST API with ActiveResource}
-    gem.email = "edavis@littlestreamsoftware.com"
-    gem.homepage = "http://github.com/edavis10/redmine_client"
-    gem.authors = ["Eric Davis"]
+    gem.email = "oruenu@gmail.com"
+    gem.homepage = "http://github.com/oruen/redmine_client"
+    gem.authors = ["Eric Davis", "Nick Recobra"]
     gem.add_dependency "activeresource", ">= 2.3.0"
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     gem.add_development_dependency "webmock", ">= 0"

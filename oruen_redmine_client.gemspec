@@ -4,16 +4,15 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{redmine_client}
+  s.name = %q{oruen_redmine_client}
   s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Eric Davis"]
-  s.date = %q{2011-04-05}
-  s.default_executable = %q{test.rb}
+  s.authors = [%q{Eric Davis}, %q{Nick Recobra}]
+  s.date = %q{2011-08-25}
   s.description = %q{Access the Redmine REST API with ActiveResource}
-  s.email = %q{edavis@littlestreamsoftware.com}
-  s.executables = ["test.rb"]
+  s.email = %q{oruenu@gmail.com}
+  s.executables = [%q{test.rb}]
   s.extra_rdoc_files = [
     "LICENSE",
     "README.rdoc"
@@ -34,14 +33,10 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/test_redmine_client.rb"
   ]
-  s.homepage = %q{http://github.com/edavis10/redmine_client}
-  s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.5.2}
+  s.homepage = %q{http://github.com/oruen/redmine_client}
+  s.require_paths = [%q{lib}]
+  s.rubygems_version = %q{1.8.6}
   s.summary = %q{Redmine API client}
-  s.test_files = [
-    "test/helper.rb",
-    "test/test_redmine_client.rb"
-  ]
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
