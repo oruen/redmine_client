@@ -29,7 +29,7 @@ Gem::Specification.new do |s|
     "lib/redmine_client/issue.rb",
     "lib/redmine_client/news.rb",
     "lib/redmine_client/project.rb",
-    "redmine_client.gemspec",
+    "oruen_redmine_client.gemspec",
     "test/helper.rb",
     "test/test_redmine_client.rb"
   ]
