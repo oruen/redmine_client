@@ -11,6 +11,7 @@ module RedmineClient
         if val
           (descendants + [self]).each do |resource|
             resource.headers['X-Redmine-API-Key'] = val
+            resource.headers['X-ChiliProject-API-Key'] = val
           end
         end
       end

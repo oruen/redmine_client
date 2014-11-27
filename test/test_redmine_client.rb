@@ -11,7 +11,10 @@ class TestRedmineClient < Test::Unit::TestCase
       end
       RedmineClient::Issue.find(:all)
       assert_requested :get, "http://redmine.org/issues.xml",
-        :headers => {'X-Redmine-API-Key' => token}, :times => 1
+        :headers => {
+          'X-Redmine-API-Key' => token,
+          'X-ChiliProject-API-Key' => token},
+        :times => 1
     end
   end
 end
